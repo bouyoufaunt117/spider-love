@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spider Love</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- BOTÓN DE MÚSICA -->
+  <button id="musicBtn">
+    ▶ Reproducir música
+  </button>
+
+  <!-- AUDIO -->
+  <!-- IMPORTANTE:
+       descarga la canción y ponla en la misma carpeta
+       con el nombre music.mp3 -->
+  <audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- LIENZO -->
+  <canvas id="canvas"></canvas>
+
+  <!-- MENSAJE -->
+  <div class="overlay">
+
+    <h1 class="title"></h1>
+
+    <div class="message">
+      cuando menos te lo espera es donde más lo consigues,
+      no te he dejado de amar, solo talvez,
+      no has buscado en el lugar correcto,
+      hay más tesoros escondidos de los que crees,
+      anímate, búscalos.
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
